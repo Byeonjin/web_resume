@@ -1,0 +1,20 @@
+.box1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    /*border는 상자 밖으로 생김*/
+    /*margin은 boder밖으로 생기는 여백*/
+    /*padding은 boder 안쪽으로 생기는 여백*/
+
+    /*
+        # margin: 0 auto;의 의미
+        margin: top-bottom이 0, left-right는 auto 즉 양 간격을 동일하게 배열하게 된다.
+    */
+}
+
+.box2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}

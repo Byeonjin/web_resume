@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    background-color: #3f3f3f;
+    color: #c6c6c6;
+    font-size: 12px;
+}
+
+.mainbox {
+    border: 1px solid #ededed; 
+    /* 선 두께, 선 스타일, 선 색 */
+    width: 610px;
+    text-align: right;
+    
+    margin: 30px auto;
+    padding: 30px;
+}
