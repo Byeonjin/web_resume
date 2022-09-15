@@ -9,9 +9,11 @@
 </head>
 <body>
     <div class = "mainbox">
-        <h1>변진상</h1>
-        <p class = "name-text">HTML / CSS 개발자</p>
-
+        <div class="title-box">
+            <h1>변진상</h1>
+            <p class = "name-text">HTML / CSS 개발자</p>
+        </div>
+        
         <section>
             <!-- div 태그는 어떤 태그라도 상관 없이 감싸준다면, section 태그는 어떠한 관계를 가지는 요소들을 감싸준다. -->
             <!-- <article> 태그는 그 안의 내용이 완결성을 가질 때 사용. section과 article은 기능적으로 div와 같긴 하다. -->
@@ -20,9 +22,100 @@
         </section>
         <section>
             <h2>EXPERIENCE</h2>
-            <p class="title-text">Awesome Programming Compny</p>
-            <p class="year-text">2020 - Now</p>
+
+            <div class = "exp">
+                <div class="float-wrap">
+                    <p class="title-text">Awesome Programming Compny</p>
+                    <p class="year-text">2020 - Now</p>
+                </div>
+    
+                <p class="desc-text">Front-End Web Developer</p>
+                <!-- 블록태그의 경우 부모태그의 width를 꽉 채우는데, float 속성을 줄 경우 해당 content의 길이에 width에 맞춘다. -->
+                <p class="desc-subtext">HTML/CSS, JS, React, ...</p>
+            </div>
+
+            <div class = "exp">
+                <div class="float-wrap">
+                    <p class="title-text">Ministry of Health</p>
+                    <p class="year-text">2015 - 2018</p>
+                </div>
+    
+                <p class="desc-text">UI/UX Designer</p>
+                <p class="desc-subtext">Web Design</p>
+            </div>
+
+            <div class = "exp">
+                <div class="float-wrap">
+                    <p class="title-text">Freelance Work</p>
+                    <p class="year-text">2011 - 2015</p>
+                </div>
+    
+                <p class="desc-text">Graphic Designer</p>
+                <p class="desc-subtext">Graphic Designer, Editorial Design</p>
+            </div>
         </section>
+
+        <section>
+            <h2>ACTIVITIES</h2>
+            <div class="float-wrap">
+                <p class="title-text">Front-End Web Developer Forum Volunteer</p>
+                <p class="year-text">2019 - 2020</p>
+            </div>
+            <p class="desc-text">Application Page Development</p>
+            <p class="desc-subtext">Lorem ipsum dolor sit amet.</p>
+            <div class="float-wrap">
+                <p class="title-text">LIKELION SEOUL</p>
+                <p class="year-text">2017 - 2018</p>
+            </div>
+            <p class="desc-text">Teacher in Mutsa University</p>
+            <p class="desc-subtext">Lorem ipsum dolor sit amet.</p>
+            <div class="float-wrap">
+                <p class="title-text">Open Source Committer</p>
+                <p class="year-text">2011 - 2013</p>
+            </div>
+            <p class="desc-text">Angular JS</p>
+            <p class="desc-subtext">Lorem ipsum dolor sit amet.</p>
+        </section>
+
+        <section>
+            <h2>EDUCATION</h2>
+            <div class="float-wrap">
+                <p class="title-text">Mutsa University</p>
+                <p class="year-text">2008 - 2012</p>
+            </div>
+            <p class="desc-text">Computer Science and Engineering</p>
+            <div class="float-wrap">
+                <p class="title-text">Mutsa High school</p>
+                <p class="year-text">2006 - 2008</p>
+            </div>
+            <p class="desc-text">Visual Communication Design</p>
+            <div class="float-wrap">
+                <p class="title-text">Online Programming Academy</p>
+                <p class="year-text">2006 - 2007</p>
+            </div>
+            <p class="desc-text">Python Course</p>
+        </section>
+
+        <section>
+            <h2>AWARDS</h2>
+            <div class="float-wrap">
+                <p class="title-text">LIKELION SEOUL</p>
+                <p class="year-text">2018</p>
+            </div>
+            <p class="desc-text">Best Developer Award</p>
+        </section>
+
+
+        <div class="sns-wrap">
+            <a href="https://facebook.com"><img class="sns-img" src="images/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com"><img class="sns-img" src="images/twitter.png" alt="twitter"></a>
+            <a href="https://kr.linkedin.com/"><img class="sns-img" src="images/linked-in.png" alt="linked-in"></a>
+            <a href="https://instagram.com"><img class="sns-img" src="images/insta.png" alt="insta"></a>
+            
+            
+            
+            
+        </div>
     </div>
     <footer>
         <p>

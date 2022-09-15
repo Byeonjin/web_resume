@@ -11,6 +11,10 @@ body, h1, h2 {
 
 /* 브라우저에서 기본적으로 margin과 padding의 값을 가지고 있는데, 이를 0px로 각각 초기화 시킨 것이다. */
 
+.title-box {
+    text-align: right;
+}
+
 h1 {
     font-size: 36px;
     font-weight: bold;
@@ -23,6 +27,7 @@ h2 {
     color: #282828;
     border-bottom: 1px solid #ebebeb;
     padding-bottom: 5px;
+    margin-bottom: 16px;
 
 }
 
@@ -79,4 +84,28 @@ section {
     columns: #282828;
     /* text-align: right; */
     float: right;
+}
+
+.float-wrap {
+    overflow: hidden;
+    /* overflow: hidden의 경우 해당 영역(예컨데 div영역의 height만큼만 보여준다. 그런데 height가 정해지지 않은 경우는 자르지 않고 내용에 맞춰 늘어난다.)*/
+}
+
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.sns-img {
+    width: 12px;
+    height: 12px;
+}
+.sns-wrap {
+    text-align: right;
 }
